@@ -3,29 +3,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  #container {
+#container {
     width: 80%;
     margin: 0 auto;
-  }
-
-
+}
 
 body {
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: rgb(227, 243, 242);
 }
 
-
 header {
-    height: 100px;
-    background-color: white;
-    background-size: 30%;
-  }
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    padding-left: 20px;
+    width: 100%;
+}
 
-  .logo {
-    height: 40px;
-    margin-top: 30px;
-  }
+.logo {
+    height: 60px;
+    width: auto;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+#tasto1 {
+    background-color: aqua;
+    height: ;
+    border: 1px;
+}
+
+#nomelogo {
+    margin-left: 100px;
+    margin-top: 0px;
+    width: 200px;
+    height:auto;
+}
+
+#logo-text{
+    color: black;
+    font-size: 40px;
+}
