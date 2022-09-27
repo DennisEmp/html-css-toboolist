@@ -5,45 +5,31 @@
     box-sizing: border-box;
 }
 
-#container {
-    width: 80%;
-    margin: 0 auto;
+body{
+    background-color: rgb(218, 244, 244);
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(227, 243, 242);
-}
-
-header {
-    background-color: rgb(255, 255, 255);
-    height: 80px;
-    padding-left: 20px;
+#boxwhite{
     width: 100%;
+    height: 80px;
+    background-color: white;
 }
 
-.logo {
-    height: 60px;
-    width: auto;
-    line-height: 60px;
+#logo{
+    margin-left: 10px;
+    margin-top: 10px;
     vertical-align: middle;
 }
 
-#tasto1 {
-    background-color: aqua;
-    height: ;
-    border: 1px;
+#logotext{
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
-#nomelogo {
-    margin-left: 100px;
-    margin-top: 0px;
-    width: 200px;
-    height:auto;
-}
-
-#logo-text{
-    color: black;
-    font-size: 40px;
+#boxwhite2{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
 }
